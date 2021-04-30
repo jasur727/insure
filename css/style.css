@@ -1,11 +1,17 @@
 body{
   background-color: rgb(255, 255, 255);
+
+}
+.navigation{
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
 }
 .navigation a{
   color: #837D88;
-  font-size: 14px;
   font-weight: bold;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .navigation ul{
@@ -25,6 +31,7 @@ body{
 .main-qism h1{
   color: #fff;
   font-size: 72px;
+  line-height: 64px;
 }
 
 .main-qism p{
@@ -38,6 +45,7 @@ body{
 
 .main-orta h2{
   font-size: 72px;
+  line-height: 64px;
   color: #000;
 }
 
