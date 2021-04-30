@@ -1,18 +1,19 @@
 body{
-  font-family: 'DM Serif Display','Karla', serif;
-  background-color: rgb(255, 255, 255);
+  /* font-family: 'DM Serif Display','Arial', serif; */
 
+  background-color: rgb(255, 255, 255);
 }
-.h1,h2,h3,h4,h5,h6{
-  font-family: 'DM Serif Display',serif;
-}
-.p{
-  font-family: 'Karla',serif;
+
+.header{
+  display: flex;
+  justify-content: space-between;
 }
 .navigation{
   font-size: 14px;
   line-height: 15px;
   letter-spacing: 1.5px;
+  display: flex;
+  justify-content: flex-end;
 }
 .navigation a{
   color: #837D88;
@@ -22,20 +23,27 @@ body{
 }
 
 .navigation ul{
+  display: flex;
   list-style: none;
+
 }
 
-.navigation button{
+.navigation .nav-link{
   color: #2C2830;
-  font-size: 14px;
-  font-weight: bold;
 }
 
 .main-qism{
   background-color: #2D2641;
+  display: flex;
+  justify-content: space-between;
 }
 
+.hero-content{
+  width: 540px;
+}
 .main-qism h1{
+  font-family: 'DM Serif Display', serif;
+  font-style: normal;
   color: #fff;
   font-size: 72px;
   line-height: 64px;
@@ -46,9 +54,14 @@ body{
 .main-qism p{
   color: #fff;
   font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  font-style: normal;
 }
 
-.main-qism button{
+.main-qism a{
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1.5px;
   font-size: 14px;
 }
 
@@ -58,21 +71,32 @@ body{
   color: #000;
   letter-spacing: -1px;
   font-weight: normal;
+  font-family: 'DM Serif Display', serif;
+  font-style: normal;
 }
 
 .main-orta ul{
   list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .main-chaqmoq h3{
   font-size: 30px;
   font-weight: normal;
 }
+.main-chaqmoq{
+  width: 350px;
+}
 
 .main-chaqmoq p{
   font-size: 17px;
+  font-family: 'Karla', sans-serif;
+  font-style: normal;
 }
-
+.main-dollor{
+  width: 350px;
+}
 .main-dollor h3{
   font-size: 30px;
   font-weight: normal;
@@ -80,8 +104,13 @@ body{
 
 .main-dollor p{
   font-size: 17px;
+  font-family: 'Karla', sans-serif;
+  font-style: normal;
 }
 
+.main-odam{
+  width: 350px;
+}
 .main-odam h3{
   font-size: 30px;
   font-weight: normal;
@@ -89,20 +118,29 @@ body{
 
 .main-odam p{
   font-size: 17px;
+  font-family: 'Karla', sans-serif;
+  font-style: normal;
 }
 
 .find{
   background-color: #2d2641;
+  display: flex;
+  justify-content: space-between;
 }
 
 .find h2{
   font-size: 58px;
   color: #fff;
   font-weight: normal;
+  width: 525px;
+  font-family: 'DM Serif Display', serif;
+  font-style: normal;
 }
 
 .find button{
   font-size: 14px;
+  width: 160px;
+  height: 40px;
 }
 
 .footer-past1 h4{
@@ -139,6 +177,8 @@ body{
   font-weight: bold;
   color: #2D2641;
   letter-spacing: 1.5px;
+  font-family: 'Karla', sans-serif;
+  font-style: bold;
 }
 
 .footer-past3 h4{
@@ -156,6 +196,8 @@ body{
   font-size: 14px;
   font-weight: bold;
   color: #2D2641;
+  font-family: 'Karla', sans-serif;
+  font-style: bold;
 }
 
 .footer-past4 h4{
@@ -174,16 +216,27 @@ body{
   font-weight: bold;
   color: #2D2641;
   letter-spacing: 1.5px;
+  font-family: 'Karla', sans-serif;
+  font-style: bold;
 }
 
 .footer-header ul{
   list-style: none;
-}
 
+}
+.footer-link{
+  display: flex;
+  justify-content: flex-end;
+}
 .footer{
   background-color: #FAFAFA;
 }
 
-
+.footer-middle{
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 1.5px;
+  line-height: 15px;
+}
 
 
