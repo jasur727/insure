@@ -126,7 +126,7 @@ body {
   color: #2D2641;
 }
 
-.main-orta-btn{
+.main-orta h2::before{
     content: "";
     display: block;
     width: 150px;
