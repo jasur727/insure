@@ -81,16 +81,6 @@ body {
   background-color: #fff;
 }
 
-.site-main-img::before{
-  content: "";
-  display: block;
-  margin-top: 90px;
-  width: 540px;
-  height: 650px;
-
-  background-image: url("../img/Bitmap-Copy.png");
-}
-
 .main-qism {
   background-color: #2D2641;
 }
@@ -172,11 +162,24 @@ body {
   justify-content: space-between;
 }
 
-.main-chaqmoq h3 {
+.main-spark h3 {
   font-size: 30px;
   font-weight: normal;
   font-family: 'DM Serif Display', serif;
   font-style: normal;
+}
+
+.main-spark h3::before {
+  content: '';
+  display: block;
+  width: 86px;
+  height: 86px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/spark.svg");
+  background-color: #96A9C6;
+  border-radius: 50%;
+  margin-bottom: 32px;
 }
 
 .main-link p{
@@ -184,69 +187,72 @@ body {
   margin-bottom: 158px;
 }
 
-.main-chaqmoq {
+.main-spark {
   width: 350px;
 }
 
-
-.main-chaqmoq-img{
-  content: "";
-  display: block;
-  width: 86px;
-  height: 86px;
-  background-image: url("../img/chaqmoq.svg");
-}
-.main-chaqmoq p {
+.main-spark p {
   font-size: 17px;
   font-family: 'Karla', sans-serif;
   font-style: normal;
 }
 
-.main-dollor {
+.main-money {
   width: 350px;
 }
 
-.main-many-img{
+.main-money h3::before{
   content: "";
   display: block;
   width: 86px;
   height: 86px;
-  background-image: url("../img/dollor.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-color: #96A9C6;
+  background-image: url("../img/many.svg");
+  margin-bottom: 32px;
 }
 
-.main-dollor h3 {
+.main-money h3 {
   font-family: 'DM Serif Display', serif;
   font-style: normal;
   font-size: 30px;
   font-weight: normal;
 }
 
-.main-dollor p {
+.main-money p {
   font-size: 17px;
   font-family: 'Karla', sans-serif;
   font-style: normal;
 }
 
-.main-odam {
+.main-people {
   width: 350px;
 }
 
-.main-odam-img{
-  content: "";
-  display: block;
-  width: 86px;
-  height: 86px;
-  background-image: url("../img/odam.svg");
-}
-
-.main-odam h3 {
+.main-people h3 {
   font-size: 30px;
   font-weight: normal;
   font-family: 'DM Serif Display', serif;
   font-style: normal;
+  /* margin-top: 32px; */
 }
 
-.main-odam p {
+.main-people h3::before {
+  content: "";
+  display: block;
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  background-color: #96A9C6;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/people.svg");
+  margin-bottom: 32px;
+}
+
+.main-people p {
   font-size: 17px;
   font-family: 'Karla', sans-serif;
   font-style: normal;
@@ -371,7 +377,7 @@ body {
   transition: color 0.5s ease;
  }
  .footer-past-link:hover{
-  color: blue;
+  color: rgb(0, 38, 255);
 
  }
 
@@ -380,37 +386,8 @@ body {
 
 }
 
-.icon-footer::before{
-  content: "";
-  width: 24px;
-  height: 24px;
-  display: block;
-
-}
-
-
-.facebook::before{
-  margin-right: 18px;
-  background-image: url("../img/facebook.svg");
-}
-
-.twitter::before{
-  content: "";
-  width: 24px;
-  height: 20px;
-  display: block;
-  margin-right: 18px;
-  background-image: url("../img/twitter.svg");
-}
-
-.panteres::before{
-  margin-right: 18px;
-  background-image: url("../img/pantester.svg");
-}
-
-.instagram::before{
-  margin-right: 18px;
-  background-image: url("../img/instagramm.svg");
+.app-link{
+  margin-right: 15px;
 }
 
 .site-footer-border::before{
